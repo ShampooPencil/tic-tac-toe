@@ -1,9 +1,7 @@
-import "App.css";
+import "./App.css";
 
 function App() {
-	return (
-		Learn React
-	);
+  return null;
 }
 
 export default App;
