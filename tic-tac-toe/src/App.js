@@ -1,4 +1,5 @@
 import "./App.css";
+import "./public/index.html";
 
 function App() {
   return null;
