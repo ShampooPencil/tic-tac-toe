@@ -1,0 +1,33 @@
+
+Project:
+☐ Tic-Tac-Toe Game using React.js & Flexbox(simple) styling.
+DESCRIPTION: Tic-Tac-Toe game. It is a 2 player game. Each player will put an X or a 0 per turn. 
+ Put score board Above it. Ask players there names and put there names on the scoreboard. 
+ When game is done it adds one point under the players name. Very fast after it added the point IT refreshes a new game.
+ If you want to play a brand new game(clears the points) it will have clear points button and replays a new # game.
+ If you want a brand new game(with new players names) put another button on scoreboard.
+ PSYDOE-CODE
+ ************ALL IN THE SAME CONTAINER/ITEMS***************************************   
+ * 1. Grid-like:                                                                   *  
+ ☐ *    -Put the tic-tac-toe showing on Page                                        *
+ ☐ *    -Show it in the center of page                                              *
+ ☐ *    -Make it so it Adapts the size of screen size for example: max-width: 100%  *
+ * 2. BUILD SCOREBOARD:                                                            *
+ ☐ *    -Put Scoreboard above tic-tac-toe board                                     *
+ ☐ *    -Put players names and pointscores under names                              *
+ ☐ *    -Place assigned BUTTONS Above Scoreboard                                    * 
+ **********************************************************************************     
+   3. RNG FOR FIRST PLAYER:
+      -
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
