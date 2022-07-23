@@ -1,8 +1,9 @@
 import "./App.css";
-import "./public/index.html";
+import TicTocGrid from "./TicTocGrid.js";
+// import "../src/public/index.html";
 
 function App() {
-  return null;
+  return <TicTocGrid />;
 }
 
 export default App;

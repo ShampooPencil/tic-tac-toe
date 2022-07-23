@@ -1,0 +1,11 @@
+.container{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+}
+.leftVerticalBar .rightVericalBar {
+    border-left: 6px solid white;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
