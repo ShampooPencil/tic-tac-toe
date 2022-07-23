@@ -1,11 +1,21 @@
 .container{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.leftVerticalBar .rightVericalBar {
-    border-left: 6px solid white;
-    height: 200px;
-    position:absolute;
-    left: 50%;
+.leftVerticalBar{
+    border-left: 10px solid white;
+    height: 40vh;
+    margin: 10%;
+    padding: 10%;
+    /* width: 100px; */
+   
+}
+.rightVericalBar{
+    border-right: 10px solid white;
+    height: 40vh;
+    margin: 10%;
+    padding: 10%;
+    /* width: 100px; */
+   
 }

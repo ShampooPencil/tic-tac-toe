@@ -1,4 +1,4 @@
-import "./TicTocGrid.css";
+// import "./TicTocGrid.css";
 
 export default function TicTocGrid() {
   return (
