@@ -1,17 +1,64 @@
-.container{
+/* * {
+    box-sizing: border-box;
+  } */
+/* .main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* flex-wrap: wrap; 
     justify-content: center;
+    align-items: center;
+} */
+.maincolumn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.leftVerticalBar{
+/* leftVerticalBar */
+.maincolumn:nth-of-type(1) { 
+    z-index: 1;
+}
+/* rightVerticalBar */
+.maincolumn:nth-of-type(2) { 
+    z-index: 2;
+ }
+ /* topHorizontalBar */
+.maincolumn:nth-of-type(3) { 
+    z-index: 3; 
+}
+/* bottomHorizontalBar */
+.maincolumn:nth-of-type(4) { 
+    z-index: 4;
+}
+ .leftVerticalBar{
+    position:absolute;
     border-left: 10px solid white;
-    height: 40vh;
-    min-width: 5%;
-   
+    margin: 1em 15vh 1em 15vh;
+    width: 20%;
+    height: 40%;
 }
-.rightVericalBar{
+.rightVerticalBar{
+    position:absolute;
     border-right: 10px solid white;
-    height: 40vh;
-    min-width: 5%;
-   
+    margin: 1em 15vh 1em 15vh;
+    width: 20%;
+    height: 40%;
+}
+
+.topHorizontalBar{
+    position:absolute;
+    border-top: 10px solid white;
+    /* top | right | bottom | left */
+    margin: 15vh 1em 15vh 1em;
+    width: 40%;
+    height: 20%;
+}
+.bottomHorizontalBar{
+    position:absolute;
+    border-bottom: 10px solid white;
+    /* top | right | bottom | left */
+    margin: 15vh 1em 15vh 1em;
+    width: 40%;
+    height: 20%;
 }
