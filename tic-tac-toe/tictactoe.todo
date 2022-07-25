@@ -7,18 +7,26 @@ DESCRIPTION: Tic-Tac-Toe game. It is a 2 player game. Each player will put an X 
  If you want to play a brand new game(clears the points) it will have clear points button and replays a new # game.                 :
  If you want a brand new game(with new players names) put another button on scoreboard.                                             :
  
+  ****
+    BUILD THE GAME SLOWLY! AS IN PUT GRID ON PAGE, 
+    PUT X AND O ON THE ALL SPACES ON GRID AND MAKE SURE WHEN CLICKING ON ONE SPACE
+    IT GOES TO THE SPACE IT WAS INTENTED FOR. AFTER CLICKING EVERY OTHER (IF ITS X OR O) 
+    WILL SHOW IT THE CORRECT ONE. THEN I WILL WORK ON ENDING THE GAME, AND PUTTING THE WINS ON EACH PLAYERS
+    SIDE OF THE SCOREBOARD. BUT DO THAT AFTER PUT X AND O ON THE SPACE IT IS INTENTED FOR
+  *******
+
   PSYDOE-CODE:
  ************ALL IN THE SAME CONTAINER/ITEMS***************************************                                                 :  
  1. Grid-like:                                                                    
- ☐ *    -Put the tic-tac-toe showing on Page                                        *
+ ✔ *    -Put the tic-tac-toe showing on Page                                        * @done (7/25/2022, 5:30:30 PM)
  ☐ *    -Show it in the center of page                                              *
- ☐ *    -Make it so it Adapts the size of screen size for example: max-width: 100%  *
+ ✔ *    -Make it so it Adapts the size of screen size for example: max-width: 100%  * @done (7/25/2022, 5:30:49 PM)
  2. BUILD SCOREBOARD:                                                            
  ☐ *    -Put Scoreboard above tic-tac-toe board                                     *
  ☐ *    -Put players names and pointscores under names                              *
  ☐ *    -Place assigned BUTTONS Above Scoreboard                                    * 
  **********************************************************************************                                                  :    
-   3. RNG FOR FIRST PLAYER:
+ 3. RNG FOR FIRST PLAYER:
       -
  
  
