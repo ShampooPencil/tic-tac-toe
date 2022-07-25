@@ -11,23 +11,10 @@
 .topRow, .middleRow, .bottomRow{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-
-
-/* .maincolumn:nth-of-type(1) { 
-    z-index: 1;
-}
-
-.maincolumn:nth-of-type(2) { 
-    z-index: 2;
- }
- 
-.maincolumn:nth-of-type(3) { 
-    z-index: 3; 
-} */
 
 .space{
     border: 10px solid white;
@@ -72,4 +59,15 @@
     margin: 15vh 1em 15vh 1em;
     width: 40%;
     height: 20%;
+} */
+/* .maincolumn:nth-of-type(1) { 
+    z-index: 1;
+}
+
+.maincolumn:nth-of-type(2) { 
+    z-index: 2;
+ }
+ 
+.maincolumn:nth-of-type(3) { 
+    z-index: 3; 
 } */
