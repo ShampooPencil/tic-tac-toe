@@ -20,7 +20,7 @@
     border: 10px solid white;
     /* margin: 50px; */
     width: 20vh;
-    height: 20vh; 
+    height: 15vh; 
     background-color: black;
     padding: 5vh;
 }
@@ -28,37 +28,6 @@
 /* bottomHorizontalBar */
 /* .maincolumn:nth-of-type(4) { 
     z-index: 4;
-} */
- /* .leftVerticalBar{
-    position:absolute;
-    border-left: 10px solid white;
-    margin: 1em 15vh 1em 15vh;
-    width: 20%;
-    height: 40%;
-}
-.rightVerticalBar{
-    position:absolute;
-    border-right: 10px solid white;
-    margin: 1em 15vh 1em 15vh;
-    width: 20%;
-    height: 40%;
-}
-
-.topHorizontalBar{
-    position:absolute;
-    border-top: 10px solid white;
-    /* top | right | bottom | left 
-    margin: 15vh 1em 15vh 1em;
-    width: 40%;
-    height: 20%;
-}
-.bottomHorizontalBar{
-    position:absolute;
-    border-bottom: 10px solid white;
-    /* top | right | bottom | left 
-    margin: 15vh 1em 15vh 1em;
-    width: 40%;
-    height: 20%;
 } */
 /* .maincolumn:nth-of-type(1) { 
     z-index: 1;

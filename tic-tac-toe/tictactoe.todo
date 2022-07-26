@@ -19,7 +19,7 @@ DESCRIPTION: Tic-Tac-Toe game. It is a 2 player game. Each player will put an X 
  ************ALL IN THE SAME CONTAINER/ITEMS***************************************                                                 :  
  1. Grid-like:                                                                    
  ✔ *    -Put the tic-tac-toe showing on Page                                        * @done (7/25/2022, 5:30:30 PM)
- ☐ *    -Show it in the center of page                                              *
+ ✔ *    -Show it in the center of page                                              * @done (7/26/2022, 6:18:23 PM)
  ✔ *    -Make it so it Adapts the size of screen size for example: max-width: 100%  * @done (7/25/2022, 5:30:49 PM)
  2. BUILD SCOREBOARD:                                                            
  ☐ *    -Put Scoreboard above tic-tac-toe board                                     *

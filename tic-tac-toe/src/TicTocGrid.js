@@ -17,17 +17,6 @@ export default function TicTocGrid() {
 
   return (
     <>
-      {/* <div className="container">
-        <div className="leftVerticalBar"></div>
-        <div className="rightVericalBar"></div>
-        <div className="topHorizontalBar"></div>
-        <div className="bottomHorizontalBar"></div>
-      </div> */}
-      {/* <div class="maincolumn">
-          <div class="container">
-            <h2>****this is going to be the scoreboard******</h2>
-          </div>
-        </div> */}
       <div className="topRow">
         <div className="topLeft space"></div>
         <div className="topCenter space"></div>
