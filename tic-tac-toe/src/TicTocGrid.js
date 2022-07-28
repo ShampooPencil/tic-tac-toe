@@ -12,39 +12,41 @@ export default function TicTocGrid() {
   //     NEXT TIME. LIKE, MAKE SURE IT GOES TO THE CORRECT SPACES FIRST. THEN
   // const [x, setX] = useState("X");
   // const [o, setO] = useState("O");
-  const [clickedSpace, setClickedSpace] = useState("");
-  const [blank, setBlank] = useState("");
+  const [clickedSpace, setClickedSpace] = useState("X");
 
   const player1 = "X";
   const player2 = "O";
-
+  let blank = [player1, player2];
+  let fillInValue;
   //if last clicked value was "X" then next clicked space is "O"
   function handleClickXorO() {
-    if ("X" === clickedSpace) {
-      setClickedSpace(player2);
-      setBlank("O");
-    } else if ("O" === clickedSpace) {
-      setClickedSpace(player1);
-      setBlank("X");
-    } else {
-      setClickedSpace(player1);
-      setBlank("X");
+    if (clickedSpace === player1 && clickedSpace !== "O") {
+      console.log("true");
+      setClickedSpace("O");
+      fillInValue = blank[0];
+      <option className="clickXorO space" value={fillInValue}>
+        {fillInValue}
+      </option>;
+    } else if (clickedSpace === player2) {
+      setClickedSpace("X");
+      fillInValue = blank[1];
+      <option className="space" value={fillInValue}>
+        {fillInValue}
+      </option>;
+      // return <div className="clickXorO">{player2}</div>;
     }
+
     // return <div className="space">{clickedSpace}</div>;
   }
-
+  //  {clickedSpace === "X" ? player2 : player1} //using as terary reference if use them
   return (
     <>
       <div className="topRow">
         <div className="topLeft space" onClick={handleClickXorO}>
-          {clickedSpace === "X" ? player2 : ""}
+          {/* <option className="clickXorO" value={fillInValue}></option> */}
         </div>
-        <div className="topCenter space" onClick={handleClickXorO}>
-          {clickedSpace === "X" ? player2 : player1}
-        </div>
-        <div className="topRight space" onClick={handleClickXorO}>
-          {clickedSpace === "X" ? player2 : player1}
-        </div>
+        <div className="topCenter space" onClick={handleClickXorO}></div>
+        <div className="topRight space" onClick={handleClickXorO}></div>
       </div>
       <div className="middleRow">
         <div className="middleLeft space" onClick={handleClickXorO}></div>
