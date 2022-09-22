@@ -5,19 +5,24 @@ export default function TicTocGrid() {
 
   let lastItemNum = player.length - 1;
 
-  function changeXorO(e) {
+  //quick little jsx functions <div>'s for "X" and "O"
+  function showXorO() {
+    return <div>{player.at(-2)}</div>;
+  }
+  //Now, it adds every other letter to array aka player clicks per turn
+  function changeXorO(clickAndShowLetter) {
     if (player[lastItemNum] === "X") {
       console.log(lastItemNum);
       setPlayer((player) => [...player, "O"]);
       const playerX = <div className="topLeft space">{player.at(-2)}</div>;
       console.log(player);
-      return <div>{playerX}</div>;
+      // return ;
     } else {
       console.log(lastItemNum);
       const playerO = <div className="topLeft space">{player.at(-2)}</div>;
       setPlayer((player) => [...player, "X"]);
       console.log(player);
-      return playerO;
+      // return playerO;
     }
   }
   // function ActionLink() {
@@ -36,7 +41,7 @@ export default function TicTocGrid() {
   return (
     <>
       <div className="topRow">
-        <div className="topLeft space" onClick={changeXorO}></div>
+        <div className="topLeft space" onClick={() => changeXorO(showXorO)}></div>
         <div className="topCenter space"></div>
         <div className="topRight space"></div>
       </div>
