@@ -5,21 +5,33 @@ export default function TicTocGrid() {
 
   let lastItemNum = player.length - 1;
 
-  function changeXorO() {
+  function changeXorO(e) {
     if (player[lastItemNum] === "X") {
       console.log(lastItemNum);
       setPlayer((player) => [...player, "O"]);
-      const playerX = <p>{player.at(-2)}</p>;
+      const playerX = <div className="topLeft space">{player.at(-2)}</div>;
       console.log(player);
       return <div>{playerX}</div>;
     } else {
       console.log(lastItemNum);
-      const playerO = <p>{player.at(-2)}</p>;
+      const playerO = <div className="topLeft space">{player.at(-2)}</div>;
       setPlayer((player) => [...player, "X"]);
       console.log(player);
       return playerO;
     }
   }
+  // function ActionLink() {
+  //   const handleClick = (e) => {
+  //     e.preventDefault();
+  //     console.log('The link was clicked.');
+  //   }
+
+  //   return (
+  //     <button onClick={handleClick}>
+  //       Click me
+  //     </button>
+  //   );
+  // }
 
   return (
     <>
