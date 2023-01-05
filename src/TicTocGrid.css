@@ -1,13 +1,3 @@
-/* * {
-    box-sizing: border-box;
-  } */
-/* .main{
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; 
-    justify-content: center;
-    align-items: center;
-} */
 .topRow, .middleRow, .bottomRow{
     display: flex;
     flex-direction: row;
@@ -28,6 +18,19 @@
 .clickXorO{
     color: white;
 }
+
+
+
+/* * {
+    box-sizing: border-box;
+  } */
+/* .main{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+} */
 /* .child */
 /* bottomHorizontalBar */
 /* .maincolumn:nth-of-type(4) { 

@@ -1,0 +1,51 @@
+{
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".vscode/",
+          "src/index.css",
+          "src/index.css",
+          "src/App.css"
+        ],
+        "peek": [
+          "src/App.css",
+          "src/index.css",
+          "src/"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      },
+      {
+        "hidden": [
+          "src/index.css",
+          "src/index.css",
+          "src/index.css",
+          "src/App.css"
+        ],
+        "name": "HideCss",
+        "description": "",
+        "detail": "",
+        "peek": []
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode/": true
+  },
+  "hidefiles.selectedProfile": "Default"
+}
