@@ -1,3 +1,8 @@
+/* 
+    Have to fix mobile, the square turns into a vertical rectangle right now.
+    Make the whole square maximum(or minimum) so on mobile, the grid
+    is square not a rectangle 
+*/
 .topRow, .middleRow, .bottomRow{
     display: flex;
     flex-direction: row;

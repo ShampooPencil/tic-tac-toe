@@ -1,22 +1,37 @@
-// import { useState } from "react";
-// import Game from './Game'
+import { useState } from "react";
+import Game from "./Game.js";
 export default function TicTocGrid() {
+  const [letter, setLetter] = useState("");
+  const letterX = "X";
+  const letterO = "O";
+
+  function SetLetter() {
+    if ("" === letter && letter !== "O") {
+      setLetter("X");
+    } else {
+      setLetter("O");
+    }
+  }
   return (
     <>
       <div className="topRow">
-        <div className="topLeft space"></div>
-        <div className="topCenter space"></div>
-        <div className="topRight space"></div>
+        <button className="topLeft space" onClick={() => SetLetter()}>
+          {letter}
+        </button>
+        <button className="topCenter space" onClick={() => SetLetter()}>
+          {letter}
+        </button>
+        <button className="topRight space"></button>
       </div>
       <div className="middleRow">
-        <div className="middleLeft space"></div>
-        <div className="middleCenter space"></div>
-        <div className="middleRight space"></div>
+        <button className="middleLeft space"></button>
+        <button className="middleCenter space"></button>
+        <button className="middleRight space"></button>
       </div>
       <div className="bottomRow">
-        <div className="bottomLeft space"></div>
-        <div className="bottomMiddle space"></div>
-        <div className="bottomRight space"></div>
+        <button className="bottomLeft space"></button>
+        <button className="bottomMiddle space"></button>
+        <button className="bottomRight space"></button>
       </div>
     </>
   );
