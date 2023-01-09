@@ -1,9 +1,15 @@
 import { useState } from "react";
 // import Game from "./Game.js";
 export default function TicTocGrid() {
-  const [letter, setLetter] = useState("");
+  const [letter, setLetter] = useState([]);
   // const letterX = "X";
   // const letterO = "O";
+
+  //some logic ideas:
+
+  //Pseudocode(after working on logic)
+
+  //Notes
 
   function SetLetter() {
     if ("" === letter && letter !== "O") {
